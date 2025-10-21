@@ -1,0 +1,13 @@
+[project]
+name = "py-pytest-starter"
+version = "0.1.0"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0.0"]
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py", "*_test.py"]
+testpaths = ["tests"]
