@@ -8,45 +8,35 @@ Et repository med kodeøvelser for læretimer og Samman coaching.
 Gilded Rose er en klassisk refaktoreringskata. Målet er å forbedre
 kodestrukturen uten å endre funksjonaliteten.
 
-### Gilded Rose (Kotlin)
+### Kotlin
 
-#### Forutsetninger
-
-- JDK 17 eller nyere
-- Gradle (wrapper inkludert)
-
-#### Kjør testene
+Forutsetninger: JDK 17 eller nyere, Gradle (wrapper inkludert)
 
 ```bash
 cd katas/refactoring/gilded_rose/kotlin
 ./gradlew test
 ```
 
-### Gilded Rose (Python)
+### Python
 
-#### Forutsetninger
-
-- Python 3.9 eller nyere
-
-#### Oppsett
+Forutsetninger: Python 3.9 eller nyere
 
 ```bash
 cd katas/refactoring/gilded_rose/python
-source source-me.bash
+source source-me.bash   # Oppsett (første gang)
+pytest                  # Kjør tester
+python texttest_fixture.py 30  # Golden master-fixture
 ```
 
-#### Kjør testene
+### TypeScript
+
+Forutsetninger: Node.js 18 eller nyere
 
 ```bash
-pytest
-```
-
-#### Kjør ApprovalTests-fixturen
-
-For å generere eller oppdatere golden master-fila:
-
-```bash
-python texttest_fixture.py 30
+cd katas/refactoring/gilded_rose/typescript
+npm install             # Oppsett (første gang)
+npm test                # Kjør tester
+npm run fixture -- 30   # Golden master-fixture
 ```
 
 ### Neste steg
