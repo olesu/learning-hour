@@ -1,0 +1,42 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+
+# Node.js
+node_modules/
+dist/
+coverage/
+*.log
+npm-debug.log*
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.coverage
+.approval_tests_temp/
+*.received.txt
+
+# Kotlin/Java (Gradle)
+.gradle/
+**/build/
+!gradle-wrapper.jar
+.gradletasknamecache
+*.class
+out/
+
+# Kotlin/Java (Maven)
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.kotlin
