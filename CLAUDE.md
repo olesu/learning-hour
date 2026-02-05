@@ -6,6 +6,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a learning-hour repository for Samman coaching, containing coding katas and language starters for practice sessions.
 
+## Documentation
+
+All documentation (markdown files) should be written in Norwegian. Exception: references to original kata authors and attributions should be in English.
+
 ## Project Structure
 
 - `starters/` - Language starter templates for new exercises
