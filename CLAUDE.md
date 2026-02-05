@@ -10,6 +10,8 @@ This is a learning-hour repository for Samman coaching, containing coding katas 
 
 All documentation (markdown files) should be written in Norwegian. Exception: references to original kata authors and attributions should be in English.
 
+Markdown files should have a maximum line length of 80 characters.
+
 ## Project Structure
 
 - `starters/` - Language starter templates for new exercises
