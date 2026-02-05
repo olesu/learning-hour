@@ -5,6 +5,7 @@ A classic refactoring kata for practicing test-driven refactoring techniques.
 ## Available Languages
 
 - [Kotlin](kotlin/) - Gradle project with JUnit 5
+- [TypeScript](typescript/) - npm project with Jest
 
 ## About the Kata
 

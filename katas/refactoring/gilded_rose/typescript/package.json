@@ -1,0 +1,20 @@
+{
+  "name": "gilded-rose-typescript",
+  "version": "1.0.0",
+  "description": "Gilded Rose Refactoring Kata - TypeScript",
+  "main": "dist/gilded-rose.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "fixture": "ts-node src/texttest-fixture.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}

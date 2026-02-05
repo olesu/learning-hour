@@ -39,6 +39,15 @@ cd katas/refactoring/gilded_rose/kotlin
 ./gradlew test --tests "com.gildedrose.GildedRoseTest"  # Run single test class
 ```
 
+**TypeScript (Jest):**
+```bash
+cd katas/refactoring/gilded_rose/typescript
+npm install                 # First-time setup
+npm test                    # Run all tests
+npm test -- --testPathPattern="gilded-rose"  # Run tests matching pattern
+npm run fixture -- 30       # Run texttest fixture for 30 days
+```
+
 ### Starters
 
 ### Kotlin Starter (Maven)
