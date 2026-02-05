@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.coverage
+.cache
+.pytest_cache/
+.approval_tests_temp/
+*.received.txt
