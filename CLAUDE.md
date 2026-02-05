@@ -12,6 +12,13 @@ All documentation (markdown files) should be written in Norwegian. Exception: re
 
 Markdown files should have a maximum line length of 80 characters.
 
+## Python
+
+Always use virtual environments when working with Python. Create them with:
+```bash
+python3 -m venv .venv
+```
+
 ## Project Structure
 
 - `starters/` - Language starter templates for new exercises
