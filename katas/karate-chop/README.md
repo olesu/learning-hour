@@ -87,4 +87,4 @@ mvn test
 
 ---
 
-*Original kata av Dave Thomas (@PragDave) — http://codekata.com/kata/kata02-karate-chop/*
+_Original kata av Dave Thomas (@PragDave) — <http://codekata.com/kata/kata02-karate-chop/>_
