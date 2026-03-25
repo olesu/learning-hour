@@ -5,7 +5,8 @@
 // [ ] 3. Utnytt at lista er sortert: hvis target < list[mid],
 //        sett high = mid - 1
 // [ ] 4. Ellers (target > list[mid]): sett low = mid + 1
-// [ ] 5. Erstatt mid++ med mid = (low + high) / 2 øverst i løkken,
+// [ ] 5. Legg til && result == -1 i while-betingelsen
+// [ ] 6. Erstatt mid++ med mid = (low + high) / 2 øverst i løkken,
 //        og erstatt while-betingelsen med low <= high
 
 object KarateChop {
