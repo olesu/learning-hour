@@ -2,11 +2,10 @@
 //
 // [ ] 1. Innfør low = 0 og high = list.size - 1 som variabler
 // [ ] 2. Gi i nytt navn: mid (rename overalt, inkl. mid++)
-// [ ] 3. Returner mid med en gang når funnet, og fjern result
-// [ ] 4. Utnytt at lista er sortert: hvis target < list[mid],
+// [ ] 3. Utnytt at lista er sortert: hvis target < list[mid],
 //        sett high = mid - 1
-// [ ] 5. Ellers (target > list[mid]): sett low = mid + 1
-// [ ] 6. Erstatt mid++ med mid = (low + high) / 2 øverst i løkken,
+// [ ] 4. Ellers (target > list[mid]): sett low = mid + 1
+// [ ] 5. Erstatt mid++ med mid = (low + high) / 2 øverst i løkken,
 //        og erstatt while-betingelsen med low <= high
 
 object KarateChop {
