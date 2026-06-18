@@ -6,6 +6,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a learning-hour repository for Samman coaching, containing coding katas and language starters for practice sessions.
 
+## Git Workflow
+
+Push direkte til main — ingen PRs.
+
+## Creating a New Kata
+
+Run `scripts/new-kata.sh <kata-navn> [starter] [dato]` to scaffold a new kata
+by copying a starter from `starters/` into `katas/<navn>-<dato>`. Defaults to
+the `kotlin` starter and today's date (`YYYY-MM-DD`). See the `new-kata` skill.
+
 ## Documentation
 
 All documentation (markdown files) should be written in Norwegian. Exception: references to original kata authors and attributions should be in English.

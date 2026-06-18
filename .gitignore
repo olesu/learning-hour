@@ -1,4 +1,5 @@
-katas/bowling-kata-*/
+# Katas er engangsøvelser og skal ikke committes
+katas/
 
 # IDE
 .idea/
@@ -7,8 +8,10 @@ katas/bowling-kata-*/
 *.iws
 *.ipr
 
-# Claude Code
-.claude/
+# Claude Code — del skills i repoet, men hold lokale/maskingenererte filer ute
+.claude/settings.local.json
+starters/**/.claude/
+katas/**/.claude/
 
 # OS
 .DS_Store
