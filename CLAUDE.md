@@ -16,6 +16,14 @@ Run `scripts/new-kata.sh <kata-navn> [starter] [dato]` to scaffold a new kata
 by copying a starter from `starters/` into `katas/<navn>-<dato>`. Defaults to
 the `kotlin` starter and today's date (`YYYY-MM-DD`). See the `new-kata` skill.
 
+## Updating the Starters
+
+Run `scripts/update-starters.sh` to report available dependency updates for all
+starters, or `scripts/update-starters.sh --apply` to bump the safe ones (npm,
+pytest floor, Maven test libraries) and run each starter's tests. Maven plugins
+and the Kotlin version are flagged for manual review. See the `update-starters`
+skill.
+
 ## Documentation
 
 All documentation (markdown files) should be written in Norwegian. Exception: references to original kata authors and attributions should be in English.

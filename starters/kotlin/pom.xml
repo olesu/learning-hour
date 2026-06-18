@@ -73,13 +73,13 @@
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
-            <version>6.0.3</version>
+            <version>6.1.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>io.kotest</groupId>
             <artifactId>kotest-assertions-core</artifactId>
-            <version>6.1.11</version>
+            <version>6.2.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
