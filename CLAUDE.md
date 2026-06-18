@@ -34,31 +34,9 @@ python3 -m venv .venv
 ## Project Structure
 
 - `starters/` - Language starter templates for new exercises
-- `katas/` - Coding exercises organized by category (e.g., `katas/refactoring/gilded_rose/`)
+- `katas/` - Coding exercises (git-ignored; throw-away practice work)
 
 ## Build and Test Commands
-
-### Gilded Rose Kata
-
-Each language has its own subdirectory under `katas/refactoring/gilded_rose/`.
-
-**Kotlin (Gradle):**
-```bash
-cd katas/refactoring/gilded_rose/kotlin
-./gradlew test              # Run all tests
-./gradlew test --tests "com.gildedrose.GildedRoseTest"  # Run single test class
-```
-
-**TypeScript (Jest):**
-```bash
-cd katas/refactoring/gilded_rose/typescript
-npm install                 # First-time setup
-npm test                    # Run all tests
-npm test -- --testPathPattern="gilded-rose"  # Run tests matching pattern
-npm run fixture -- 30       # Run texttest fixture for 30 days
-```
-
-### Starters
 
 ### Kotlin Starter (Maven)
 ```bash
@@ -82,9 +60,3 @@ source .venv/bin/activate   # Activate venv
 pytest                      # Run all tests
 pytest tests/test_example.py::test_name  # Run single test
 ```
-
-## Gilded Rose Kata
-
-The original Samman Coaching repository is cloned at `../gilded_rose` (outside this repo). Use it as a reference when creating new language implementations.
-
-The Gilded Rose kata uses golden master testing for safe refactoring. Each language implementation has its own golden master file (e.g., `katas/refactoring/gilded_rose/kotlin/src/test/resources/golden-master-30-days.txt` for Kotlin). See `katas/refactoring/gilded_rose/GildedRoseRequirements.md` for the full specification.
